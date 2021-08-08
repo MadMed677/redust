@@ -2,7 +2,8 @@
 name = "redust"
 version = "0.1.0"
 edition = "2018"
-authors = "Artem Anashev"
+authors = ["Artem Anashev"]
+description = "TypeScript Redux on Rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
