@@ -1,5 +1,4 @@
-# Redust [![travis build](https://img.shields.io/travis/MadMed677/redust.svg?style=flat-square)](https://travis-ci.
-org/MadMed677/redust)
+# Redust [![travis build](https://img.shields.io/travis/MadMed677/redust.svg?style=flat-square)](https://travis-ci.org/MadMed677/redust)
 
 ## :warning: It's a test project. Use it in projects at your own risk
 
