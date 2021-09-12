@@ -13,5 +13,5 @@ jobs:
   fast_finish: true
 script:
   - cargo clean
-  - cargo build --verbose --workspace
-  - cargo test --verbose --workspace
+  - cargo build
+  - cargo tarpaulin
