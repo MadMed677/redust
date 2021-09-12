@@ -1,11 +1,17 @@
 language: rust
+cache: cargo
 rust:
   - stable
   - nightly
+before_script: |
+  if [[ "$TRAVIS_RUST_VERSION" == stable ]]; then
+      cargo install cargo-tarpaulin
+  fi
 jobs:
   allow_failures:
     - rust: nightly
   fast_finish: true
 script:
+  - cargo clean
   - cargo build --verbose --workspace
   - cargo test --verbose --workspace
